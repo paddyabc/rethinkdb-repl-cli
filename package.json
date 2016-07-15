@@ -4,7 +4,7 @@
   "description": "A CLI and REPL for rethinkdb",
   "main": "index.js",
   "scripts": {
-    "rethinkdb-cli": "./bin/rethinkdb-cli"
+    "rethinkdb-cli": "./bin/rethinkdb-client"
   },
   "author": "Paddy Tsang",
   "license": "MIT",
