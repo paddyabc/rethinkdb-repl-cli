@@ -1,6 +1,6 @@
 {
   "name": "rethinkdb-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mysql/mongo shell like client for rethinkdb",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/paddyabc/rethinkdb-repl-cli.git"
   },
+  "keywords":["rethinkdb","client","cli","repl"],
   "dependencies": {
     "commander": "^2.9.0",
     "rethinkdb": "^2.3.2"
