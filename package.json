@@ -4,7 +4,7 @@
   "description": "A mysql/mongo shell like client for rethinkdb",
   "main": "index.js",
   "scripts": {
-    "rethinkdb-cli": "./bin/rethinkdb-client"
+    "rethinkdb-client": "./bin/rethinkdb-client"
   },
   "author": "Paddy Tsang",
   "license": "MIT",
