@@ -16,7 +16,7 @@ command.version(pkg.version)
 
 
 command.parse(process.argv);
-console.log('user: %s pass: %s', command.username, command.password);
+//console.log('user: %s pass: %s', command.username, command.password);
 
 const username = command.username || undefined;
 const password = command.password || undefined;
