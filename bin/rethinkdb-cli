@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const command = require('commander');
+const pkg = require('../package.json');
+const RethinkREPL = require('../lib/RethinkREPL');
+
+command.version(pkg.version)
+ .option('-u, --username <username>', 'database username')
+ .option('-p, --password <password>', 'database user password')
+ .option('-h, --host <host>', 'database hostname')
+ .option('-P, --port <port>', 'database port number')
+ .option('-d, --database <database>', 'database name')
+ ;
+
+
+command.parse(process.argv);
+console.log('user: %s pass: %s', command.username, command.password);
+
+const username = command.username || undefined;
+const password = command.password || undefined;
+const host = command.host || 'localhost';
+const port = command.port || 28015;
+const database = command.database || undefined;
+
+const repl = new RethinkREPL(username, password, host, port, database);
+repl.start();
+
