@@ -27,7 +27,6 @@ Usage: rethinkdb-client [options]
 ### How to use
 ```
 # rethinkdb-client --host localhost
-
 rethinkdb [test]>
 ```
 
