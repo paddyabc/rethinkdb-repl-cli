@@ -46,7 +46,7 @@ rethinkdb [test]>
 Execute ReQL in multiline (Using backslash)
 ```
 rethinkdb[test]> r.db('test')\
-tableList()
+.tableList()
 []
 rethinkdb [test]>
 ```
