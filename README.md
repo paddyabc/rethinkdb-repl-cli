@@ -43,8 +43,21 @@ rethinkdb [test]> r.dbList()
 rethinkdb [test]>
 ```
 
+Execute ReQL in multiline (Using backslash)
+```
+rethinkdb[test]> r.db('test')\
+tableList()
+[]
+rethinkdb [test]>
+```
+
 Quit the command prompt
 ```
 rethinkdb [test]> quit
+#
+```
+OR
+```
+rethinkdb [test]> exit
 #
 ```
