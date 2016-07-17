@@ -2,6 +2,6 @@
 
 'use strict'
 
-const cli = require('./bin/rethinkdb-cli');
+const cli = require('./bin/rethinkdb-client');
 
 module.exports = cli;
