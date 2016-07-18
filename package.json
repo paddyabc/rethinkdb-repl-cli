@@ -17,5 +17,8 @@
     "commander": "^2.9.0",
     "rethinkdb": "^2.3.2"
   },
-  "devDependencies": {}
+  "devDependencies": {} ,
+  "bin": {
+    "rethinkdb-client":"./bin/rethinkdb-client"
+  }
 }
