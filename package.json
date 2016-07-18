@@ -1,6 +1,6 @@
 {
   "name": "rethinkdb-client",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A mysql/mongo shell like client for rethinkdb",
   "main": "index.js",
   "scripts": {
