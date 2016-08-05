@@ -12,6 +12,7 @@ command.version(pkg.version)
  .option('-h, --host <host>', 'database hostname')
  .option('-P, --port <port>', 'database port number')
  .option('-d, --database <database>', 'database name')
+ .option('-s, --ssl <cert>', 'SSL certificate file')
  ;
 
 
@@ -23,7 +24,7 @@ const password = command.password || undefined;
 const host = command.host || 'localhost';
 const port = command.port || 28015;
 const database = command.database || undefined;
+const ssl = command.ssl || undefined;
 
-const repl = new RethinkREPL(username, password, host, port, database);
+const repl = new RethinkREPL(username, password, host, port, database, ssl);
 repl.start();
-
