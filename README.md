@@ -21,6 +21,7 @@ Usage: rethinkdb-client [options]
     -h, --host <host>          database hostname
     -P, --port <port>          database port number
     -d, --database <database>  database name
+    -s, --ssl <cert>           SSL certification file
 
 ```
 
