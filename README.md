@@ -2,7 +2,7 @@
 
 Mysql client/Mongo shell like Nodejs command line client for [Rethinkdb](https://github.com/rethinkdb/rethinkdb)
 
-###Installation
+### Installation
 ```
 npm install -g rethinkdb-client
 ```
